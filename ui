@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Crimson Hub Project 2", _G.theme)
+local Tab = Window:NewTab("Info")
+local Section = Tab:NewSection("Script By Boss Private Script")
+local Section = Tab:NewSection("Warning!!! Alert!!!")
+local Section = Tab:NewSection("Alternately Boss Farm Is Super High Chance To Get Ban!!")
+local Section = Tab:NewSection("Farm One Boss At a time only")
