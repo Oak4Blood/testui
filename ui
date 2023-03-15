@@ -1,7 +1,91 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Crimson Hub Project 2", _G.theme)
 local Tab = Window:NewTab("Info")
-local Section = Tab:NewSection("Script By Boss Private Script")
-local Section = Tab:NewSection("Warning!!! Alert!!!")
-local Section = Tab:NewSection("Alternately Boss Farm Is Super High Chance To Get Ban!!")
-local Section = Tab:NewSection("Farm One Boss At a time only")
+local Section = Tab:NewSection("Antiafk")
+
+Section:NewToggle("Antiafk", " ", function(state)
+
+    if state then
+Afk = state
+local randomnumber = math.random(0, 5)
+    wait()
+if randomnumber == 0 then
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm Afk Cannot Respond", "All")
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(995, 140))
+    
+
+end
+clickscreen()
+wait(_G.cooldown)
+elseif randomnumber == 1 then
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm in toilet or else", "All")
+
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(995, 140))
+    
+
+end
+clickscreen()
+wait(_G.cooldown)
+elseif randomnumber == 2 then
+    
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("be quiet sleeping", "All")
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(995, 140))
+    
+
+end
+clickscreen()
+wait(_G.cooldown)
+elseif randomnumber == 3 then
+    
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("maybe i get huge today", "All")
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(995, 140))
+    
+
+end
+clickscreen()
+wait(_G.cooldown)
+elseif randomnumber == 4 then
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("plz huge", "All")
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(995, 140))
+    
+
+end
+clickscreen()
+wait(_G.cooldown)
+elseif randomnumber == 5 then
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(".....................", "All")
+function clickscreen()
+    local virtualUser = game:GetService('VirtualUser')
+    virtualUser:CaptureController()
+    virtualUser:ClickButton1(Vector2.new(995, 140))
+    
+
+end
+clickscreen()
+wait(_G.cooldown)
+end
+
+
+  else
+
+        Afk = state
+
+print("Antiafk Disable")
+
+end
+end)
