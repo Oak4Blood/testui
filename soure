@@ -1,0 +1,25 @@
+_G.colors = {
+    SchemeColor = Color3.fromRGB(100,233,255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+
+
+_G.theme = ("Serpent") --Edit Theme Here
+--[[Select Themes
+Themes:
+    LightTheme
+    DarkTheme
+    GrapeTheme
+    BloodTheme
+    Ocean
+    Midnight
+    Sentinel
+    Synapse
+    Serpent
+    ]]--
+
+--Settings
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Oak4Blood/testui/main/ui",true))()
